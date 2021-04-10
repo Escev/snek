@@ -27,7 +27,7 @@
       (((birdY < topPipeBottomY || birdY > topPipeBottomY + pipeGap) && pipeX < birdSize * (524/374))// Bird hit pipe?
        || birdY > canvasSize) && // Bird falls off screen
       ((birdDY = 0), (birdY = 200), (pipeX = canvasSize), (score = 0)); // Bird died
-	if (bestScore > 10000){
+	if (bestScore > 5000){
 	context.fillText("dark is pepe", 9, 75)
 	}
     }, interval)
